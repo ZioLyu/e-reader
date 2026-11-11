@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "e-reader",
+  "version": "0.1.0",
+  "identifier": "com.example.ereader",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:5173",
+    "beforeDevCommand": "npm run dev"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "e-reader",
+        "width": 1280,
+        "height": 860,
+        "resizable": true
+      }
+    ]
+  }
+}
